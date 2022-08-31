@@ -16,7 +16,7 @@ function aplanarArray(datos, acumulador) {
         if(Array.isArray(datos[i])){
           aplanarArray(datos[i], acumulador);
         }else {
-          acumulador.push(raiz[i]);
+          acumulador.push(datos[i]);
         }
 
     }
